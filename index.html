@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"
+        <title>Delicious Brownies</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Brownie Bliss</h1>
+            <p>Experience the rich taste of homemade brownies</p>
+        </header>
+        <div class="slider-container">
+            <button class="nav prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="slider">
+                    <div class="slide">
+                        <img src="brownie1.jpg" alt="Brownie1">
+                    </div>
+                    <div class="slide">
+                        <video id="sliderVideo" src="5660672-uhd_4096_2160_30fps.mp4" controls>
+                            Browser does not support the video
+                        </video>
+                    </div>
+                    <div class="slide">
+                        <img src="brownie2.jpg" alt="Brownie2">
+                    </div>
+                    <div class="slide">
+                        <img src="brownie3.webp" alt="Brownie3">
+                    </div>
+            </div>
+            <button class="nav next" onclick="changeSlide(-1)">&#10095;</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
